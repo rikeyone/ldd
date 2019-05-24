@@ -1,0 +1,3 @@
+1.修改ldd脚本第一行#!/bin/bash改为busybox对应的路径如#!/bin/sh
+2.修改RTLDLIST="/lib64/ld-linux-x86-64.so.2"为对应的目录RTLDLIST="/lib/ld-linux-aarch64.so.1"
+3.把脚本放到目标板的/bin目录
